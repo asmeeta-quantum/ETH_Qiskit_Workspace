@@ -1,0 +1,11 @@
+name: ETH-Qiskit-Simulations
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - matplotlib
+      - numpy
+      - qiskit
+      - qiskit-aer
