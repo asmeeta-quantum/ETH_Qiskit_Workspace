@@ -1,66 +1,48 @@
-# Research Portfolio: Quantum Simulations for Superconducting Qubits
+# Quantum Computing Research Portfolio
 
-**Asmeeta Prakash Sayaji** | [Email](mailto:asmitasayaji21@gmail.com) | [Phone](+91-7621811920)
-**GitHub:** [github.com/asmeeta-quantum](https://github.com/asmeeta-quantum) 
+**Asmeeta Prakash Sayaji** | [Email](mailto:asmitasayaji21@gmail.com) | [CV](./Asmeeta_Quantum_CV.pdf) | Ahmedabad, India
 
-This portfolio contains quantum simulations developed alongside my professional work in cryogenic microwave engineering at ISRO. It demonstrates my initiative to build a robust software understanding of quantum algorithms, noise processes, and pulse-level control—skills directly applicable to experimental challenges in superconducting quantum computation.
-
----
-
-## Project Overview
-
-The projects progress from fundamental quantum mechanics to advanced noise modeling, reflecting a deep dive into the practical software stack used in cutting-edge quantum research.
-
-### 1. **Quantum State & Entanglement Fidelity under Noise**
-**Location:** `bell_state_analysis/`
-**Tools:** Qiskit (Aer, Terra), Matplotlib
-**Description:** Generated and analyzed Bell states to understand the fundamental resource of entanglement. A key focus was benchmarking fidelity degradation under a realistic depolarizing noise model, providing a baseline for quantifying error susceptibility.
-**Relevance:** Establishes a methodology for quantifying the impact of environmental noise on quantum states, a critical task for validating hardware performance.
-
-### 2. **Quantum Algorithm Advantage & Benchmarking**
-**Location:** `grover_deutsch_jozsa/`
-**Tools:** Qiskit (Aer, Terra)
-**Description:** Implemented and validated core quantum algorithms to demonstrate quantum advantage.
-- **Grover's Algorithm (2-qubit):** Achieved ~100% success probability in identifying a marked state, showcasing amplitude amplification.
-- **Deutsch-Jozsa Algorithm (3-qubit):** Deterministically solved the problem in a single oracle query, empirically verifying quantum speed-up over classical counterparts.
-**Relevance:** Provides a framework for testing and benchmarking quantum processors on standardized algorithmic tasks.
-
-### 3. **Superconducting Qubit Noise Modeling & Coherence Analysis**
-**Location:** `superconducting_noise_modeling/`
-**Tools:** Qiskit Aer Noise Module, NumPy, Matplotlib
-**Description:** Developed a comprehensive noise model simulating key decoherence channels (T₁, T₂) and depolarizing error in superconducting qubits. Quantified the fidelity decay of quantum operations over time under realistic coherence parameters.
-**Relevance:** Directly mirrors the primary challenges in quantum hardware development. This simulation expertise is crucial for predicting qubit performance, designing error mitigation strategies, and setting coherence targets for experimental systems.
-
-### 4. **Reproducible Research Environment**
-**Location:** `qbraid.yaml`, `requirements.txt`
-**Tools:** qBraid Lab, Python 3.10, Qiskit 1.0.2+
-**Description:** Configured a fully containerized and version-controlled environment to ensure all simulations are reproducible and shareable across different platforms.
-**Relevance:** Demonstrates professional-grade research practices, ensuring that results can be independently verified by collaborators or reviewers, a critical aspect of academic research.
+This repository contains code and notebooks from my independent research in quantum computing, complementing my professional background in **cryogenic microwave engineering at ISRO**. It demonstrates a practical understanding of quantum algorithms, noise processes, and pulse-level control, directly relevant to experimental superconducting quantum computation.
 
 ---
 
-## Technical Skills Demonstrated
+## 📂 Project Portfolio
 
-*   **Quantum Software:** Qiskit (Terra, Aer, Noise Module), OpenQASM
-*   **Programming:** Python (NumPy, Matplotlib, SciPy)
-*   **Quantum Concepts:** Quantum Entanglement, Quantum Algorithms (Grover, Deutsch-Jozsa), Open Quantum Systems, Decoherence (T₁, T₂), Depolarizing Noise, Quantum State Tomography (simulated).
-*   **Professional Practice:** Reproducible Environments (qBraid, YAML), Version Control (Git/GitHub)
+The projects are organized to reflect a progression from fundamental principles to advanced topics in quantum control and error mitigation.
+
+### 1. Foundations of Quantum Circuits & Entanglement
+- **Bell State Simulations:** Generated and sampled Bell states to study entanglement and measurement statistics.
+- **Ideal Statevector Simulation:** Built noise-free quantum circuit simulations for benchmarking algorithms and validating outputs.
+
+### 2. Understanding Quantum Noise and Decoherence
+- **Noisy Circuit Simulation (Depolarizing Errors):** Modeled Bell state decoherence with depolarizing channels to analyze fidelity loss under generic quantum noise.
+- **Superconducting Qubit Noise Simulation (`T₁`, `T₂`, Depolarizing`):`** Simulated realistic noise channels (relaxation, dephasing, depolarizing) to evaluate performance limitations of transmon-like qubits.
+
+### 3. Quantum Algorithm Implementation & Advantage
+- **Grover's Algorithm (2-qubit):** Implemented and analyzed a simplified Grover search circuit for proof-of-concept testing of amplitude amplification.
+- **Deutsch-Jozsa Algorithm (n=3):** Demonstrated deterministic quantum advantage by implementing and testing the n=3 circuit, verifying its correctness in a single oracle query.
+
+### 4. Advanced Research: Open Systems & Pulse-Level Control
+- **Open Quantum Systems Simulation (`QuTiP`):** Modeled non-unitary dynamics of a driven transmon qubit using the Lindblad master equation, analyzing `T₁/T₂` decoherence effects on state fidelity.
+- **Transmon Qubit Modeling & DRAG Pulse Design (`Qiskit Pulse`):** Investigated transmon properties (charge dispersion, anharmonicity) based on the Koch et al. model. Designed and simulated Derivative Removal by Adiabatic Gate (DRAG) pulses for leakage suppression in 2-qubit gates.
+- **Quantum Error Mitigation (ZNE):** Benchmarked Grover's algorithm on IBM noisy simulators, applying Zero-Noise Extrapolation (ZNE) to enhance success probability from `~65%` to `≈85%`.
 
 ---
 
-## Professional Context
+## 🛠️ Technical Skills Demonstrated
 
-This software-based research complements my hands-on hardware experience at **ISRO**, where I:
-- Characterized cryogenic microwave components (amplifiers, cables) at 4 K.
-- Developed thermal noise budgets for high-sensitivity receiver chains.
-- Validated system performance using VNA S-parameter analysis.
-
-This unique perspective allows me to bridge the gap between abstract quantum information theory and the practical constraints of real-world quantum hardware.
+*   **Quantum Frameworks:** Qiskit (Terra, Aer, Pulse), OpenQASM, QuTiP
+*   **Programming:** Python (NumPy, SciPy, Matplotlib, Pandas)
+*   **Quantum Concepts:** Quantum Noise & Decoherence (`T₁`, `T₂`), Lindblad Master Equation, Quantum Error Mitigation (ZNE), Pulse-Level Control (DRAG), Transmon Qubits, Quantum Algorithms (Grover, Deutsch-Jozsa)
+*   **Hardware Relevance:** This software-based work is informed by professional experience with **cryogenic systems (4 K), VNA S-parameter analysis, and low-noise amplifier characterization** at ISRO.
 
 ---
 
-## Contact
+## 🔗 Connect & Learn More
 
-I am exploring PhD opportunities in experimental quantum computing with superconducting circuits.
-- **Email:** [asmitasayaji21@gmail.com](mailto:asmitasayaji21@gmail.com)
-- **Phone:** +91 7621811920
+*   **Email:** [asmitasayaji21@gmail.com](mailto:asmitasayaji21@gmail.com)
+*   **Professional CV:** [Download PDF](./Asmeeta_Quantum_CV.pdf)
+
+
+---
+*This portfolio was created as part of my application and research for PhD positions in experimental quantum computing.*
