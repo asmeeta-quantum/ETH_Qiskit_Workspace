@@ -1,5 +1,5 @@
 # **Quantum Computing Research Portfolio**
-**Asmeeta Prakash Sayaji** · [asmitasayaji21@gmail.com](mailto:asmitasayaji21@gmail.com) · [Download CV](./cv/Asmeeta_Quantum_CV.pdf) · [Research Portfolio](./Reaserch_Portfolio.pdf)
+**Asmeeta Prakash Sayaji** · [asmitasayaji21@gmail.com](mailto:asmitasayaji21@gmail.com) · [Download CV](Asmeeta_Quantum_CV.pdf) · [Research Portfolio](Research_Portfolio.pdf)
 
 Ahmedabad, India
 
@@ -25,7 +25,7 @@ The work progresses from foundations to advanced topics. Each notebook is self-c
 
 ### 4) Advanced Research: Open Systems & Pulse-Level Control
 - **`4a_lindblad_qubit_dynamics.ipynb`** — Non-unitary dynamics of a *driven* transmon using the **Lindblad** master equation in **QuTiP**.  
-- **`4b_drag_pulse_design.ipynb`** — **DRAG** pulse design in Qiskit Pulse to suppress |1⟩→|2⟩ leakage in transmons.
+- **`4b_drag_pulse_design.ipynb`** — **DRAG** pulse design in Qiskit Pulse to suppress \|1⟩→\|2⟩ leakage in transmons.
 
 ## 🛠️ Technical Skills Demonstrated
 - **Quantum Frameworks:** Qiskit (Terra, Aer, Pulse), OpenQASM, QuTiP  
