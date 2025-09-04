@@ -65,7 +65,7 @@ To reproduce the results in these notebooks:
 ## 🔗 Connect
 
 *   **Email**: asmitasayaji21@gmail.com
-*   **Professional CV**: [CV](Asmeeta_Quantum_CV.pdf)
+*   **Professional CV**: Asmeeta_Quantum_CV.pdf
 ---
 
 *This portfolio was created as part of my application and research for PhD positions in experimental quantum computing.*
