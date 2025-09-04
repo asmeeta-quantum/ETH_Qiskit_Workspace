@@ -1,6 +1,6 @@
 # Quantum Computing Research Portfolio
 
-**Asmeeta Prakash Sayaji** | [Email](mailto:asmitasayaji21@gmail.com) | [CV](link/to/your/CV.pdf) | [Full Research Portfolio (PDF)](Research_Portfolio_Asmeeta_Prakash_Sayaji.pdf)
+**Asmeeta Prakash Sayaji** | [Email](mailto:asmitasayaji21@gmail.com) | [CV](Asmeeta_Quantum_CV.pdf) | [Full Research Portfolio (PDF)](Research_Portfolio_Asmeeta_Prakash_Sayaji.pdf)
 
 Ahmedabad, India
 
@@ -65,8 +65,7 @@ To reproduce the results in these notebooks:
 ## 🔗 Connect
 
 *   **Email**: asmitasayaji21@gmail.com
-*   **LinkedIn**: [Your LinkedIn Profile URL]
-*   **Professional CV**: [Download PDF](link/to/your/CV.pdf)
+*   **Professional CV**: [Download PDF]([CV](Asmeeta_Quantum_CV.pdf)
 
 ---
 
