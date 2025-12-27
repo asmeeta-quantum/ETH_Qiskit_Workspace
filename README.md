@@ -1,5 +1,5 @@
 # **Quantum Computing Research Portfolio**
-**Asmeeta Prakash Sayaji** · [asmitasayaji21@gmail.com](mailto:asmitasayaji21@gmail.com) · [Download CV](Asmeeta_Quantum_CV.pdf) · [Research Portfolio](Research_Portfolio.pdf)
+**Asmeeta Prakash Sayaji** · [asmitasayaji21@gmail.com](mailto:asmitasayaji21@gmail.com) · [Download CV](Sayaji_Asmeeta_CV_Quantum_Researcher.pdf) · [Research Portfolio](Research_Portfolio.pdf)
 
 Ahmedabad, India
 
