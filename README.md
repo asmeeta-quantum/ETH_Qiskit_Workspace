@@ -25,12 +25,21 @@ The portfolio demonstrates a progression from fundamental quantum algorithms to 
 
 ## Documents
 
-| Document | Link |
-|----------|------|
-| **CV** | [Download PDF](https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/blob/main/Sayaji_Asmeeta_CV.pdf?raw=true) |
-| **Research Portfolio** | [Download PDF](https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/blob/main/Quantum_Computing_Research_Portfolio.pdf?raw=true) |
+## CV
 
-> 💡 **Note:** If the PDF doesn't render in your browser, click the link above and select "Raw" or download the file directly.
+## CV
+
+<object data="https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/raw/main/Sayaji_Asmeeta_CV.pdf" type="application/pdf" width="100%" height="600px">
+    <p>PDF cannot be displayed. <a href="https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/raw/main/Sayaji_Asmeeta_CV.pdf">Download PDF</a></p>
+</object>
+
+---
+
+## Research Portfolio
+
+<object data="https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/raw/main/Quantum_Computing_Research_Portfolio.pdf" type="application/pdf" width="100%" height="600px">
+    <p>PDF cannot be displayed. <a href="https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/raw/main/Quantum_Computing_Research_Portfolio.pdf">Download PDF</a></p>
+</object>
 
 ---
 
