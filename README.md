@@ -27,8 +27,6 @@ The portfolio demonstrates a progression from fundamental quantum algorithms to 
 
 ## CV
 
-## CV
-
 <object data="https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/raw/main/Sayaji_Asmeeta_CV.pdf" type="application/pdf" width="100%" height="600px">
     <p>PDF cannot be displayed. <a href="https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/raw/main/Sayaji_Asmeeta_CV.pdf">Download PDF</a></p>
 </object>
