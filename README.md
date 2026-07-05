@@ -11,11 +11,26 @@ Ahmedabad, India
 
 This repository showcases my independent research in quantum information theory, with a focus on noise analysis, verification protocols, and quantum advantage certification. The work bridges theoretical quantum information concepts with hardware-informed modeling, leveraging my professional experience in cryogenic microwave engineering at ISRO.
 
+The portfolio demonstrates a progression from fundamental quantum algorithms to advanced research topics directly relevant to superconducting quantum computation, particularly in the context of verification complexity and noise-adapted advantage thresholds.
+
 ### Key Research Outcomes
 - >90% leakage suppression via DRAG pulse optimization
 - ~20% fidelity improvement via zero-noise extrapolation
 - Analytical bounds for verification complexity under T1/T2 noise
 - Identification of noise-triggered classical simulability transitions
+- AI-driven quantum error mitigation optimization
+- Hybrid quantum-classical classification models
+
+---
+
+## Documents
+
+| Document | Link |
+|----------|------|
+| **CV** | [Download PDF](https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/blob/main/Sayaji_Asmeeta_CV.pdf?raw=true) |
+| **Research Portfolio** | [Download PDF](https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace/blob/main/Quantum_Computing_Research_Portfolio.pdf?raw=true) |
+
+> 💡 **Note:** If the PDF doesn't render in your browser, click the link above and select "Raw" or download the file directly.
 
 ---
 
@@ -27,18 +42,21 @@ This repository showcases my independent research in quantum information theory,
 | **Verification Complexity Scaling** | Sample complexity analysis under realistic noise models |
 | **Hardware-Informed Noise Modeling** | Translating experimental metrics (T1, T2) into quantum channel parameters |
 | **Leakage-Aware Quantum Control** | DRAG pulse optimization for transmon qubits |
+| **AI for Quantum Computing** | Machine learning for error mitigation, quantum algorithm optimization, hybrid models |
 
 ---
 
 ## Research Project Structure
 
 ### 1. Foundations & Benchmarking
+
 | Notebook | Description |
 |----------|-------------|
 | `01_bell_states_entanglement.ipynb` | Bell state generation and entanglement verification |
 | `02_statevector_simulation.ipynb` | Noise-free circuit simulation for algorithm benchmarking |
 
 ### 2. Noise Modeling & Decoherence
+
 | Notebook | Description |
 |----------|-------------|
 | `03_depolarizing_noise_analysis.ipynb` | Bell-state decay under generic depolarizing noise |
@@ -46,6 +64,7 @@ This repository showcases my independent research in quantum information theory,
 | `05_composite_noise_simulation.ipynb` | Multi-channel noise effects on verification protocols |
 
 ### 3. Quantum Advantage Verification
+
 | Notebook | Description |
 |----------|-------------|
 | `06_grover_verification.ipynb` | 2-qubit Grover search with verification overhead analysis |
@@ -53,6 +72,7 @@ This repository showcases my independent research in quantum information theory,
 | `08_verification_sample_complexity.ipynb` | Sample complexity scaling under various noise models |
 
 ### 4. Advanced Research: Control & Simulation
+
 | Notebook | Description |
 |----------|-------------|
 | `09_lindblad_qubit_dynamics.ipynb` | Non-unitary dynamics of driven transmons using Lindblad master equation (QuTiP) |
@@ -60,25 +80,57 @@ This repository showcases my independent research in quantum information theory,
 | `11_noise_bench_qc/` | Structured-noise verification benchmarking suite |
 | `12_lindblad_sim/` | Non-Markovian and leakage-aware simulation toolkit |
 
+### 5. AI & Quantum Computing (New)
+
+| Notebook | Description |
+|----------|-------------|
+| `13_ai_error_mitigation/` | AI-driven Zero-Noise Extrapolation optimization |
+| `14_hybrid_qml/` | Hybrid quantum-classical machine learning frameworks |
+| `15_qaoo/` | QAOA optimization with quantum-enhanced embeddings |
+
+---
+
+## Full Notebook
+
+The complete notebook `ETH_Qiskit_Simulations_AI.ipynb` consolidates all simulations, including:
+
+- **Programs 1-6:** Bell states, Grover, Deutsch–Jozsa, superconducting noise
+- **Program 7:** DRAG pulse optimization (leakage suppression)
+- **Program 8:** Open quantum systems (QuTiP, Lindblad)
+- **Program 9:** AI-assisted quantum error mitigation
+- **Program 10:** Hybrid quantum-classical classification
+
 ---
 
 ## Technical Implementation
 
 ### Software Tools Developed
+
 | Tool | Description | Key Result |
 |------|-------------|------------|
 | **Noise-Bench QC** | Verification benchmarking under structured noise | Systematic noise characterization |
 | **Lindblad-Sim** | Non-Markovian simulation toolkit | Open system dynamics simulation |
 | **ZNE Toolkit** | Zero-noise extrapolation framework | ~20% fidelity improvement |
 | **DRAG Pulse Optimizer** | Adaptive pulse design for leakage suppression | >90% leakage suppression |
+| **AI-Error Mitigation** | Neural network-driven error mitigation optimization | Automated ZNE parameter tuning |
+| **Hybrid-QML** | Hybrid quantum-classical ML framework | Quantum-enhanced feature extraction |
 
 ### Technical Stack
+
 | Category | Tools |
 |----------|-------|
 | **Quantum Frameworks** | Qiskit (Terra, Aer, Pulse), QuTiP, OpenQASM |
 | **Programming** | Python (NumPy, SciPy, Matplotlib, scikit-learn) |
+| **AI/ML** | TensorFlow, PyTorch, Scikit-Learn |
 | **Quantum Theory** | Lindbladian models, smooth entropies, quantum channel divergences, resource theories |
 | **Mathematics** | Linear algebra, probability, information theory, optimization |
+
+### Hardware Relevance
+
+Professional experience at ISRO with:
+- Cryogenic systems (4K) and microwave component characterization
+- VNA S-parameter analysis and stability metrics (T1, T2, phase noise)
+- Low-noise amplifier characterization for quantum readout systems
 
 ---
 
@@ -92,32 +144,43 @@ This repository showcases my independent research in quantum information theory,
 | **Verification Insights** | Identified noise thresholds for efficient classical simulability |
 | **Leakage Suppression** | Achieved >90% suppression via DRAG pulse optimization |
 | **Error Mitigation** | Demonstrated ~20% fidelity improvement via ZNE |
+| **AI-Error Mitigation** | Neural network-driven ZNE parameter optimization |
+| **Hybrid-QML** | Quantum-enhanced feature extraction for classification |
 
 ---
 
 ## Research Alignment with ETH Zürich
 
-| Professor | Research Area |
-|-----------|---------------|
-| **Prof. Renato Renner** | Quantum information theory, smooth entropies, verification complexity |
-| **Prof. Juan Carrasquilla** | Quantum machine learning, quantum many-body physics |
-| **Prof. David Steurer** | Complexity theory, hardness of approximation |
-| **Prof. Matthias Troyer** | Quantum advantage, computational limits of near-term devices |
+This work directly supports my PhD applications to ETH Zürich, targeting research with:
+
+| Position | Supervisor | Research Area |
+|----------|------------|---------------|
+| **Dominik Hangleiter** | Prof. Dominik Hangleiter | Quantum complexity, verification, noisy quantum systems |
+| **ETH + IBM Research** | Dr. David Sutter, Prof. Renato Renner, Dr. Elisa Bäumer, Dr. Christophe Piveteau | Quantum information theory, error mitigation, foundations |
+| **AI × Quantum Computing** | Dr. Stefan Woerner, Prof. Juan Carrasquilla | AI-driven quantum algorithms, optimization, hybrid models |
+
+### Focus Areas:
+- Verification complexity of quantum computations under realistic noise
+- Practical quantum advantage certification in NISQ devices
+- Resource theories for noisy quantum computation
+- Classical simulability thresholds and noise-adapted advantage
+- AI-driven quantum error mitigation and optimization
 
 ---
 
-## Documents
+## Setup and Installation
 
-| Document | Link |
-|----------|------|
-| **CV** | [Quantum_Compting_CV.pdf](Quantum_Compting_CV.pdf) |
-| **Research Portfolio** | [Quantum_Computing_Research_Portfolio.pdf](Quantum_Computing_Research_Portfolio.pdf) |
+```bash
+# Clone repository
+git clone https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace.git
+cd ETH_Qiskit_Workspace
 
----
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-## Contact
+# Install dependencies
+pip install -r requirements.txt
 
-**Asmeeta Prakash Sayaji**  
-Ahmedabad, India  
-[asmitasayaji21@gmail.com](mailto:asmitasayaji21@gmail.com)  
-[ETH_Qiskit_Workspace](https://github.com/asmeeta-quantum/ETH_Qiskit_Workspace)
+# For QuTiP simulations (additional installation if needed)
+pip install qutip
